@@ -1,6 +1,6 @@
 body{
     font-family: 'Poppins', sans-serif;
-    background-image: url(/images/top-banner.png);
+    background-image: url("images/top-banner.png");
     background-repeat: no-repeat;
 }
 /* -----------section first start here-------  */
@@ -13,10 +13,10 @@ body{
     padding-right: 5% ;
 }
 .half-part h1{
-    font-size: 60px;
+    font-size: 50px;
 }
 .half-part h3{
-    font-size: 40px;
+    font-size: 30px;
 }
 .half-part img{
     width: 100%;
@@ -29,11 +29,52 @@ a{
     background-image: linear-gradient(to right, orange,tomato);
     padding: 10px 40px;
     border-radius: 5px;
-    font-size: 30px;
+    font-size: 25px;
     color: white;
 }
 img{
     padding-top: 50px ;
     padding-left: 50px ;
 }
-/* -----------section first ends here-------  */
+/* -----------section second start here-------  */
+.dream-area{
+    background-image: url("images/image-3.png");
+    background-position: right;
+    background-repeat: no-repeat;
+}
+/* -----------section 3rd start here-------  */
+.experiences{
+    background-image: url("images/image-4.png");
+    background-repeat: no-repeat;
+    background-position-y: center;
+}
+.experiences h1{
+    font-size: 55px;
+}
+.experiences .half-part h1{
+    font-size: 45px;
+}
+.experiences .half-part h3{
+    font-size: 30px;
+}
+.experiences .half-part{
+    margin: 5%;   
+    box-shadow: 10px 10px 50px gray; 
+}
+.fullstack-dev{
+    border-radius: 15px;
+    border-left: 10px solid;
+    border-image: linear-gradient(to bottom, red, yellow); 
+    border-image-slice: 1; 
+}
+.baby-dev{
+    border-left: 10px solid;
+    border-image: linear-gradient(yellow,red,green); 
+    border-image-slice: 1;  
+    border-radius: 15px;
+}
+
+/* here start footer  */
+footer{
+    text-align: center;
+}
